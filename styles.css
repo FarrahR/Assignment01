@@ -115,22 +115,26 @@ section .gallery{
 }
 
 .wrapper .aboutFlex{
-    flex-wrap: wrap;
+    display: inline-flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
+
 /* responsiveness */
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     header .wrapper {
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-    }
-
-    .gallery ul {
-        flex-direction: column;
-    }
-
-    .gallery li {
-        width: 100%;
-    }
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+    
+        .gallery ul {
+            flex-direction: column;
+        }
+    
+        .gallery li {
+            width: 100%;
+        }
+} 
+    
