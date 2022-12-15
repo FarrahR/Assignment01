@@ -13,7 +13,7 @@ html {
 
 .wrapper {
     max-width: 1680px;
-    /* width: 90%; */
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ header h2{
 section .gallery{
     background-color: #D6F1E4;
     background-size: cover;
-    /* padding: 50px 0; */
+    padding: 50px 50px 10px 10px;
 }
 /* gallery of main section */
 .gallery ul {
@@ -101,9 +101,3 @@ section .gallery{
     justify-content: space-between;
 }
 
-.gallery li {
-    width: calc(100% / 3 - 15px);
-    /* min-width: 300px; */
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
